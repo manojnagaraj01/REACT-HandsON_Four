@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    height: 50px;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+    color: beige;
+    font-style: italic;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+a:hover{
+    color: red;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+}
+.editOption{
+    color: blue;
+}
+.backButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.backButton{
+    height: 40px;
+    width: 20%;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    color: azure;
+    font-size: 25px;
+}
+.backButton:hover{
+    background-color: chartreuse;
+}
+.displayData{
+    display: flex;
+    width: 100%;
+    border: 2px dotted black;
+    justify-content: space-evenly;
+}
